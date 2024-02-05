@@ -37,6 +37,11 @@ export default function Navbar() {
                                 About
                             </Link>
                         </li>
+                        <li className="nav-item">
+                            <Link className={"nav-link" + (pathname === '/create' ? " active" : "")} aria-current="page" href="/create">
+                                Create
+                            </Link>
+                        </li>
                     </ul>
                 </div>
             </div>

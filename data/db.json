@@ -1,16 +1,22 @@
 {
   "cards": [
     {
-      "id": "1",
-      "title": "Hello",
-      "text": "",
-      "color": "primary"
+      "title": "Legendary Card",
+      "content": "Just a simple legendary card",
+      "color": "danger",
+      "id": "B8UwKUL"
     },
     {
-      "id": "2",
-      "title": "Hello",
-      "text": "Hello world",
-      "color": "success"
+      "title": "Hello hello",
+      "content": "yahallo!",
+      "color": "secondary",
+      "id": "T3gu6tG"
+    },
+    {
+      "title": "Ghostrunner",
+      "content": "After an unspecified global cataclysm known as the Burst, mankind is housed in Dharma Tower, a vast skyscraper-like arcology sheltering the rest of humanity. The Ghostrunner awakens with no recollection, but is ordered to free the Architect, Adam's preserved consciousness who established and ruled Dharma Tower and designed the Ghostrunners, technologically enhanced super humans that served as a peacekeeping and policing force. Mara, the Architect's confidant, betrayed him in a coup that destroyed most of the Ghostrunner units, and now she is known as the Keymaster. The Ghostrunner was discovered for repairs by a group of rebels known as the Climbers, though the uprising was put down just before the Ghostrunner was reactivated. The Architect assigns the mission of defeating the Keymaster to the Ghostrunner.",
+      "color": "warning",
+      "id": "qq6UTBH"
     }
   ]
 }
