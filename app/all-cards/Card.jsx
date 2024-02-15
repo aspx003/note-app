@@ -8,7 +8,7 @@ export default function Card({ title, content, color, id }) {
                 <div className="card-body">
                     <h5 className="card-title">{title}</h5>
                     <p className="card-text">
-                        {content.length <= 100 ? content : content.slice(0, 100)}...
+                        {content.slice(0, 100)}...
                     </p>
                 </div>
             </div>

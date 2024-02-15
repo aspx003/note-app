@@ -1,7 +1,11 @@
 import Card from "./Card"
 
 async function getCards() {
-    const res = await fetch('http://localhost:4000/cards', { next: { revalidate: 0 } });
+    const res = await fetch('http://localhost:4000/cards', {
+        next: {
+            revalidate: 5
+        }
+    });
 
     if (!res.ok) {
         throw new Error('Failed to fetch data')
@@ -11,7 +15,6 @@ async function getCards() {
 }
 
 export default async function AllCards() {
-
     const cards = await getCards();
 
     return (

@@ -1,7 +1,7 @@
 "use client"
 
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function CreateCard() {
 
@@ -66,7 +66,7 @@ export default function CreateCard() {
                 onChange={(e) => setColor(e.target.value)}
                 className="form-select"
             >
-                <option value="light" selected>White</option>
+                <option value="light">White</option>
                 <option value="primary">Blue</option>
                 <option value="secondary">Grey</option>
                 <option value="success">Green</option>

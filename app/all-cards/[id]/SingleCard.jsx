@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import React from 'react'
 
 export default function SingleCard({ color, title, content }) {
     return (
@@ -13,6 +12,7 @@ export default function SingleCard({ color, title, content }) {
                 </div>
             </div>
             <Link href="/all-cards" className='btn btn-primary'>Go Back</Link>
+            <button href="/all-cards" className='btn btn-primary m-2'>Delete Note</button>
         </div>
     )
 }
